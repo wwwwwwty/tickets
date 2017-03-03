@@ -1,4 +1,6 @@
 # tickets 火车票在线查询
+Install:
+    python3 setup.py
 Usage:
     tickets [-gdtkzs] <from> <to> <date>
 Options:
