@@ -1,4 +1,4 @@
-stations = {
+stations = { 
     '一间堡': 'YJT',
     '一面坡': 'YPB',
     '一面山': 'YST',
