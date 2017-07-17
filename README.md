@@ -1,9 +1,12 @@
 # tickets 火车票在线查询
-Install:
-    python3 setup.py
-Usage:
-    tickets [-gdtkzs] <from> <to> <date>
-Options:
+
+## 安装
+```
+python3 setup.py
+```
+## 使用方式
+```
+tickets [-gdtkzs] <from> <to> <date>
     -h,--help   显示帮助菜单
     -g          高铁
     -d          动车
@@ -11,6 +14,16 @@ Options:
     -k          快速
     -z          直达
     -s          查找学生票
-Example:
-    tickets 北京 上海 2017-05-01
-    tickets -gk 成都 南京 2017-10-10
+```
+
+## 例子
+> 查找2016年5月1日北京到上海所有车次
+```
+tickets 北京 上海 2016-05-01
+```
+
+> 查找2016年10月10日程度到南京的高铁和特快车次
+```
+tickets -gt 成都 南京 2017-10-10
+```
+    
